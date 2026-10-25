@@ -85,7 +85,7 @@ def build_exe():
         message = "Build process started...\nThis may take a few minutes."
         messagebox.showinfo("Information", message)
 
-        build_command = f'nuitka --standalone --onefile --disable-console {icon_option} tsuto.py'
+        build_command = f'pyinstaller --onefile --noconsole {icon_option} tsuto.py'
 
         exit_code = os.system(build_command)
 
